@@ -50,7 +50,6 @@ async def main():
                         await app.read_chat_history(bots)
                 except FloodWait as e:
                    async def system_status(update, context):
-    uptime = datetime.datetime.fromtimestamp(boot_time()).strftime("%Y-%m-%d %H:%M:%S")
     status = "<b>======[ SYSTEM INFO ]======</b>\n\n"
     status += "<b>sʏsᴛᴇᴍ ᴜᴘᴛɪᴍᴇ:</b> <code>" + str(uptime) + "</code>\n"
 
